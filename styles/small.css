@@ -33,7 +33,8 @@ header {
 header h1 a {
     color: black;
     text-decoration: none;
-    font-size: 4rem;    
+    font-size: 4rem; 
+    font-family: "lora";   
 }
 h1 {
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
@@ -55,7 +56,7 @@ li a {
     padding: 1rem;
     text-align: center;
     text-decoration: none;
-    color:darkgray;
+    color:#d0d0d0;
     
   }
 
@@ -67,6 +68,7 @@ li a {
 .post-date {
     font-size: 2rem;  
     text-align: right; 
+    font-family: "lora";  
     /* border-right: 1px solid rgba(0, 0, 0, 0.3);  */
     
 }
@@ -74,12 +76,19 @@ main h2 {
     color: black;
     font-size: 1.5rem; 
     text-align: left;
+    font-family: "lora";  
        
 }
 article {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
 }
 main h2 a {
     text-decoration: none;
-    color:darkgray;
+    color:#d0d0d0;
+    font-family: "lora";  
+}
+p {
+    font-family: "Helvetica", sans-serif; 
+    padding: 5px; 
 }
